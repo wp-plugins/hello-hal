@@ -76,7 +76,7 @@ You're beautiful. Let's have sex. <div id=\"notes\">[ Logan - Logan's Run ]</div
 Runner...you are terminated.<div id=\"notes\">[ Francis 7 - Logan's Run ]</div>
 At Delos, you get your choice of the vacation you want.<div id=\"notes\">[ Interviewer - WestWorld ]</div>
 Doesn't anything work around here?<div id=\"notes\">[ Chief Supervisor - WestWorld ]</div>
-It's so beautiful. It's hard to believe these spores could kill me.<div id=\"notes\">[ Nausicaä - Kaze no tani no Naushika ]</div>
+It's so beautiful. It's hard to believe these spores could kill me.<div id=\"notes\">[ Nausicaa - Kaze no tani no Naushika ]</div>
 Your father would kill me if saw us in bed together.<div id=\"notes\">[ Christopher - Awaken the Dead ]</div>
 Of course I came back for you. I'm sorry it took me so long.<div id=\"notes\">[ Rob Hawkins - Cloverfield ]</div>
 So you're a Paladin and I'm a Jumper. What happens now?<div id=\"notes\">[ David Rice - Jumper ]</div>
@@ -85,6 +85,10 @@ The boy's pheromone levels suggest he wants to mate with the female.<div id=\"no
 Don't make me hungry. You wouldn't like me when I'm hungry.<div id=\"notes\">[ Bruce Banner - The Incredible Hulk ]</div>
 Stick this hot glue gun in my ear? OkeeDokee!<div id=\"notes\">[ Donkey - Retarded Animal Babies ]</div>
 Well, at least we know your bionic arm still works.<div id=\"notes\">[ Steve Austin - The Return of the Six-Million-Dollar Man and the Bionic Woman ]</div>
+What's my name? 14K, that's my name!<div id=\"notes\">[ 14K - Death Race 2008 ]</div>
+My logic is undeniable.<div id=\"notes\">[ V.I.KI. - I, Robot ]</div>
+They blew up Congress! Ha ha ha ha!<div id=\"notes\">[ Grandma Florence Norris - Mars Attacks! ]</div>
+...and if you forget one thing, I will have you shaved, sterilized, and destroyed!<div id=\"notes\">[ Jeffrey Goines - 12 Monkeys ]</div>
 ";
 
 // Here we split it into lines
