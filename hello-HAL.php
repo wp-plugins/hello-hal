@@ -63,6 +63,28 @@ Get the I.C.B.M.'s in the bullpen warmed up and ready to fly.<div id=\"notes\">[
 Skybird, this is Dropkick with a Red-Alpha message in two parts. Break. Break.<div id=\"notes\">[ Dropkick - WarGames ]</div>
 Come to me, son of Jor-El! Kneel before Zod!<div id=\"notes\">[ General Zod - Superman II ]</div>
 Rise before Zod. Now, kneel before Zod.<div id=\"notes\">[ General Zod - Superman II ]</div>
+Doc are you telling me you built a time machine . . . out of a Delorean?<div id=\"notes\">[ Marty McFly - Back to The Future ]</div>
+Mein Fuhrer, I can walk!<div id=\"notes\">[ Dr. Strangelove - Dr. Strangelove ]</div>
+By Grabthar's hammer, by the sons of Worvan, you shall be avenged.<div id=\"notes\">[ Alexander Dane - Galaxy Quest ]</div>
+I never broke the law. I am the law!<div id=\"notes\">[ Judge Dredd - Judge Dredd ]</div>
+Did you know there's a guy living in our closet?<div id=\"notes\">[ Mitch Taylor - Real Genius ]</div>
+Satan, stop! Where do you think you're going?<div id=\"notes\">[ Father Luke Brophy - Repossessed ]</div>
+Pocket Jack, Megazone invasion!<div id=\"notes\">[ Splatterpunk 1 - Robocop 3 ]</div>
+What's the worst thing that can happen? We'll all die, right?<div id=\"notes\">[ Kevin Donaldson - SpaceCamp ]</div>
+Lastday, Capricorn 29's. Year of the City: 2274. Carousel begins.<div id=\"notes\">[ P.A. System - Logan's Run ]</div>
+You're beautiful. Let's have sex. <div id=\"notes\">[ Logan - Logan's Run ]</div>
+Runner...you are terminated.<div id=\"notes\">[ Francis 7 - Logan's Run ]</div>
+At Delos, you get your choice of the vacation you want.<div id=\"notes\">[ Interviewer - WestWorld ]</div>
+Doesn't anything work around here?<div id=\"notes\">[ Chief Supervisor - WestWorld ]</div>
+It's so beautiful. It's hard to believe these spores could kill me.<div id=\"notes\">[ Nausicaä - Kaze no tani no Naushika ]</div>
+Your father would kill me if saw us in bed together.<div id=\"notes\">[ Christopher - Awaken the Dead ]</div>
+Of course I came back for you. I'm sorry it took me so long.<div id=\"notes\">[ Rob Hawkins - Cloverfield ]</div>
+So you're a Paladin and I'm a Jumper. What happens now?<div id=\"notes\">[ David Rice - Jumper ]</div>
+Last night at the station, you told the officer your car transformed. Enlighten me.<div id=\"notes\">[ Agent Simmons - Transformers ]</div>
+The boy's pheromone levels suggest he wants to mate with the female.<div id=\"notes\">[ Ratchet - Transformers ]</div>
+Don't make me hungry. You wouldn't like me when I'm hungry.<div id=\"notes\">[ Bruce Banner - The Incredible Hulk ]</div>
+Stick this hot glue gun in my ear? OkeeDokee!<div id=\"notes\">[ Donkey - Retarded Animal Babies ]</div>
+Well, at least we know your bionic arm still works.<div id=\"notes\">[ Steve Austin - The Return of the Six-Million-Dollar Man and the Bionic Woman ]</div>
 ";
 
 // Here we split it into lines
