@@ -1,14 +1,14 @@
 === Hello HAL ===
 Contributors: Doc4
 Donate link: Sorry, we're not taking donations at this time
-Tags: quotes, sci-fi, fun, admin, movie quotes, science fiction
+Tags: movie quotes, quote, quotes, science fiction, sci-fi, scifi, science fiction quotes, HAL 9000, Hello Hal, Hello_HAL, sci-fi quotes, fun, entertainment, admin quotes, quotations, movie quotations, entertaining, enjoyment, thrills, Back to the Future, Logan's Run, Barbarella
 Requires at least: 2.3
 Tested up to: 2.6.2
-Stable tag: 0.1
+Stable tag: 0.2
 
 == Description ==
 
-Based on the famous "Hello Dolly" plugin, "Hello HAL" ( Heuristically programmed ALgorithmic Computer: HAL 9000 ) is a science fiction movie quotation plugin developed for the WAD 9000 ( Wordpress ADministration Panel ). It was decided that simply having the quotes wasn't nearly as entertaining as including the author's name and title of the movie and so directly under the quote is a small caption with this information. 
+Based on the now famous "Hello Dolly" plugin, "Hello HAL" ( Heuristically programmed ALgorithmic Computer: HAL 9000 ) is a science fiction movie quotation plugin developed for the WAD 9000 ( Wordpress ADministration Panel ). It was decided that simply having the quotes wasn't nearly as entertaining as including the author's name and title of the movie and so directly under the quote is a small caption with this information. 
  
 == Installation ==
 
@@ -18,7 +18,8 @@ To install the plugin just follow these simple steps:
 2. Copy the 'Hello HAL' folder into your plugins folder (wp-content/plugins/).
 3. Login into the WordPress administration area and go to the Plugins page.
 4. Locate the Hello HAL plugin and click on the activate link.
-5. That's it, look in the Admin Navigation bar for the quotes.
+5. That's it, you're finished.
+6. Look toward the top of the Wordpress admin area to see the quotes appear like a monolith spurting from the earth and suddenly there's a flashback with angry monkeys throwing bones. It's all just so exciting!
 
 
 == Frequently Asked Questions ==
