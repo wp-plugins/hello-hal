@@ -2,9 +2,9 @@
 /*
 Plugin Name: Hello HAL
 Plugin URI: http://wordpress.org/#
-Description: Adds Sci-Fi movie quotes to your admin header
+Description: Adds Sci-Fi movie quotes to your admin header bar
 Author: Doc4
-Version: 0.13
+Version: 0.18
 Author URI: http://www.doc4design.com
 */
 
