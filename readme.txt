@@ -13,8 +13,8 @@ Based on the now famous "Hello Dolly" plugin created by Matt Mullenweg, "Hello H
 
 
 == Screenshots ==
-View Screenshots:
-http://www.doc4design.com/plugins/hello-hal
+
+View Screenshots: http://www.doc4design.com/plugins/hello-hal
  
 
 == Installation ==
