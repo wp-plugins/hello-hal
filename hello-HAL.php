@@ -1,15 +1,36 @@
 <?php
 /*
 Plugin Name: Hello HAL
-Plugin URI: http://wordpress.org/#
-Description: Adds Sci-Fi movie quotes to your admin header bar
+Plugin URI: http://www.doc4design.com/plugins/hello-hal
+Description: Adds Sci-Fi movie quotes to your admin header
+Version: 1.5
 Author: Doc4
-Version: 0.18
 Author URI: http://www.doc4design.com
 */
 
+/******************************************************************************
 
-$lyrics = "I'm sorry Dave, I'm afraid I can't do that.<div id=\"notes\">[ HAL 9000 - 2001 Space Odyssey ]</div>
+Copyright 2008  Doc4 : info@doc4design.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+The license is also available at http://www.gnu.org/copyleft/gpl.html
+
+*********************************************************************************/
+
+
+$quotes = "I'm sorry Dave, I'm afraid I can't do that.<div id=\"notes\">[ HAL 9000 - 2001 Space Odyssey ]</div>
 Take your stinking paws off me, you damned dirty ape!<div id=\"notes\">[ George Taylor - Planet of the Apes ]</div>
 I say we take off and nuke the entire site from orbit.<div id=\"notes\">[ Ripley - Aliens ]</div>
 You've gotta tell them! Soylent Green is people!<div id=\"notes\">[ Detective Thorn - Soylent Green ]</div>
@@ -92,45 +113,27 @@ They blew up Congress! Ha ha ha ha!<div id=\"notes\">[ Grandma Florence Norris -
 ";
 
 // Here we split it into lines
-$lyrics = explode("\n", $lyrics);
+$quotes = explode("\n", $quotes);
 $notes = explode("\n", $notes);
+
 // And then randomly choose a line
-$chosen = wptexturize( $lyrics[ mt_rand(0, count($lyrics) - 1) ] );
-// This just echoes the chosen line, we'll position it later
-function hello_scifi() {
+$chosen = wptexturize( $quotes[ mt_rand(0, count($quotes) - 1) ] );
+
+// This just echoes the chosen line
+function hello_hal() {
 	global $chosen;
-	echo "<p id='scifi'>$chosen</p>";
+	echo "<div class='clear'></div><div id='hal'><a href='http://www.doc4design.com'></a><p id='main-quote'>$chosen</p></div>";
 }
 
 // Now we set that function up to execute when the admin_footer action is called
-add_action('admin_footer', 'hello_scifi');
+add_action('admin_notices', 'hello_hal');
 
-// We need some CSS to position the paragraph
-function scifi_css() {
-	echo "
-	<style type='text/css'>
-	#scifi {
-		position: absolute;
-		top: 3.3em;
-		margin: 0;
-		padding: 0;
-		right: 16px;
-		font-size: 13px;
-		color: #d54e21;
-	}
-	#notes {
-	    position: absolute;
-		top: 6.3em;
-		margin: 0;
-		padding: 0;
-		right: 16px;
-		font-size: 10px;
-		color: #d54e21;
-		}
-	</style>
-	";
+
+// We need some CSS to position the quotes
+function hal_css() {
+	echo '<link href="'.get_bloginfo('siteurl').'/wp-content/plugins/d4-helloHAL/css/hello-hal.css" rel="stylesheet" type="text/css" />'."\n";
 }
 
-add_action('admin_head', 'scifi_css');
+add_action('admin_head', 'hal_css');
 
 ?>
