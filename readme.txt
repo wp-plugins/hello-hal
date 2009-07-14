@@ -9,12 +9,13 @@ Stable tag: 1.5
 
 == Description ==
 
-Based on the now famous "Hello Dolly" plugin created by Matt Mullenweg, "Hello HAL" ( Heuristically programmed ALgorithmic Computer: HAL 9000 ) is a science fiction movie quotation plugin. We wnated to take the Hello Dolly plugin a step or two further by including the speaking character's name and the title of the film.
+Based on the now famous "Hello Dolly" plugin created by Matt Mullenweg, "Hello HAL" ( Heuristically programmed ALgorithmic Computer: HAL 9000 ) is a science fiction movie quotation plugin. We wanted to take the Hello Dolly plugin a step or two further by including the speaking character's name and the title of the film.
 
 
 == Screenshots ==
 
-View Screenshots: <a href="http://www.doc4design.com/plugins/hello-hal">http://www.doc4design.com/plugins/hello-hal</a>
+View Screenshots:
+http://www.doc4design.com/plugins/hello-hal
  
 
 == Installation ==
@@ -40,3 +41,9 @@ Good:
 Bad:
 "I was just remembering the last time we had a quiet drink together. I had a milkshake."
 [ Harrison Ford: Indiana Jones Movie ]
+
+
+
+== Screenshots ==
+
+[http://www.doc4design.com/plugins/hello-hal]
