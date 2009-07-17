@@ -41,9 +41,3 @@ Good:
 Bad:
 "I was just remembering the last time we had a quiet drink together. I had a milkshake."
 [ Harrison Ford: Indiana Jones Movie ]
-
-
-
-== Screenshots ==
-
-[http://www.doc4design.com/plugins/hello-hal]
