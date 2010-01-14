@@ -9,7 +9,7 @@ Stable tag: 1.6
 
 == Description ==
 
-Based on the now famous "Hello Dolly" plugin created by Matt Mullenweg, "Hello HAL" ( Heuristically programmed ALgorithmic Computer: HAL 9000 ) is a science fiction movie quotation plugin. We wanted to take the Hello Dolly plugin a step or two further by including the speaking character's name and the title of the film.
+Based on the now famous "Hello Dolly" plugin created by Matt Mullenweg, "Hello HAL" ( Heuristically programmed ALgorithmic Computer: HAL 9000 ) is a science fiction movie quotation plugin displaying random quotes within the dashboard. The goal was to take the Hello Dolly plugin a step or two further by including the speaking character's name and the title of the film.
 
 
 == Screenshots ==
