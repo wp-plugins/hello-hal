@@ -3,7 +3,7 @@
 Plugin Name: Hello HAL
 Plugin URI: http://www.doc4design.com/plugins/hello-hal
 Description: Adds Sci-Fi movie quotes to your admin header
-Version: 1.5
+Version: 1.6
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
@@ -30,7 +30,25 @@ The license is also available at http://www.gnu.org/copyleft/gpl.html
 *********************************************************************************/
 
 
-$quotes = "I'm sorry Dave, I'm afraid I can't do that.<div id=\"notes\">[ HAL 9000 - 2001 Space Odyssey ]</div>
+$quotes = 
+"Wow, he just made the international sign of the doughnut.<div id=\"notes\">[ Richie Norris - Mars Attacks ]</div>
+We didn't choose this place! We didn't choose these people! They were invited!<div id=\"notes\">[ David Laughlin - Close Encounters of the Third Kind ]</div>
+Algorithms I trust. Boolean logic I trust. Beautiful women... they just mystify me.<div id=\"notes\">[ Zane Zaminski - The Arrival ]</div>
+My God, it's full of stars!<div id=\"notes\">[ David Bowman - 2010 ]</div>
+That’s it man, game over man, game over!<div id=\"notes\">[ Hudson - Aliens ]</div>
+I am fearful when I see people substituting fear for reason.<div id=\"notes\">[ Klaatu - The Day The Earth Stood Still ]</div>
+But one thing's sure. Inspector Clay is dead, murdered, and somebody's responsible. <div id=\"notes\">[ Detective - Plan 9 from Outer Space ]</div>
+Yes, you have a great body. May I use it?<div id=\"notes\">[ Benson - Saturn 3 ]</div>
+I dunno what the hell's in there, but it's weird and pissed off, whatever it is.<div id=\"notes\">[ Clark - The Thing ]</div>
+Well, forget it! I'm not doing it! This episode was badly written!<div id=\"notes\">[ Gwen DeMarco - Galaxy Quest ]</div>
+Death is a primitive concept. I prefer to think of them as battling evil, in another dimension.<div id=\"notes\">[ Grig - The Last Starfighter ]</div>
+Ladies and gentlemen, boys and girls, diein' time's here.<div id=\"notes\">[ Dr. Dealgood - Max Mad: Beyond Thunderdome ]</div>
+Do you know the Klingon proverb that tells us revenge is a dish that is best served cold?<div id=\"notes\">[ Khan Noonian Singh - Star Trek: The Wrath of Khan ]</div>
+I'm not the person I remember.<div id=\"notes\">[ Rheya - Solaris ]</div>
+What is it that is exactly the same about every vacation you've  ever taken?<div id=\"notes\">[ Quaid - Total Recall ]</div>
+I take a dim view of watching my own destruction.<div id=\"notes\">[ Jack - Invasion of the Body Snatchers ]</div>
+This is not a democracy. We are a collection of scientists and astronauts.<div id=\"notes\">[ Captain Kaneda - Sunshine ]</div>
+I'm sorry Dave, I'm afraid I can't do that.<div id=\"notes\">[ HAL 9000 - 2001 Space Odyssey ]</div>
 Take your stinking paws off me, you damned dirty ape!<div id=\"notes\">[ George Taylor - Planet of the Apes ]</div>
 I say we take off and nuke the entire site from orbit.<div id=\"notes\">[ Ripley - Aliens ]</div>
 You've gotta tell them! Soylent Green is people!<div id=\"notes\">[ Detective Thorn - Soylent Green ]</div>
@@ -131,7 +149,7 @@ add_action('admin_notices', 'hello_hal');
 
 // We need some CSS to position the quotes
 function hal_css() {
-	echo '<link href="'.get_bloginfo('siteurl').'/wp-content/plugins/d4-helloHAL/css/hello-hal.css" rel="stylesheet" type="text/css" />'."\n";
+	echo '<link href="'.get_bloginfo('siteurl').'/wp-content/plugins/hello-hal/hello-hal.css" rel="stylesheet" type="text/css" />'."\n";
 }
 
 add_action('admin_head', 'hal_css');
