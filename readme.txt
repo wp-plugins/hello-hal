@@ -9,6 +9,9 @@ Stable tag: 2.0
 
 == Description ==
 
+= Plugin URL =
+http://www.doc4design.com/plugins/hello-hal/
+
 Based on the now famous "Hello Dolly" plugin created by Matt Mullenweg, "Hello HAL" ( Heuristically programmed ALgorithmic Computer: HAL 9000 ) is a science fiction movie quotation plugin displaying random quotes within the dashboard. The goal was to take the Hello Dolly plugin a step or two further by including the speaking character's name and the title of the film.
 
 See also: <a href="http://wordpress.org/extend/plugins/hello-hollywood/">"Hello Hollywood"</a>
