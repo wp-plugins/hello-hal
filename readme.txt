@@ -3,8 +3,8 @@ Contributors: Doc4
 Donate link: http://www.doc4design.com/donate
 Tags: theater, movies, science fiction, sci-fi, space odyssey, hal 9000, movie quotes, sci-fi quotes, 2001 space odyssey, hall, computer
 Requires at least: 2.7
-Tested up to: 3.1
-Stable tag: 2.0
+Tested up to: 3.1.1
+Stable tag: 2.5
 
 
 == Description ==
@@ -49,6 +49,10 @@ Bad:
 
 
 == Changelog ==
+
+= 2.5 =
+* Updated plugin for 3.1.1
+* Compatible with Ozh Admin Dropdown Menu
 
 = 2.0 =
 * Updated for WordPress 3.0
