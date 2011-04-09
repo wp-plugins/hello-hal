@@ -3,7 +3,7 @@
 Plugin Name: Hello HAL
 Plugin URI: http://www.doc4design.com/plugins/hello-hal
 Description: Adds Sci-Fi movie quotes to your admin header
-Version: 2.0
+Version: 2.5
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
@@ -157,7 +157,7 @@ function hello_hal() {
 }
 
 // Now we set that function up to execute when the admin_footer action is called
-add_action('admin_notices', 'hello_hal');
+add_action('all_admin_notices', 'hello_hal');
 
 
 // We need some CSS to position the quotes
