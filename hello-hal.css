@@ -10,6 +10,7 @@
 #hal9000 a {
    width: 150px;
    height: 100px;
+   margin: -2px 0 0;
    float: right;
    display: block;   
    background: url(hal.png) no-repeat right 0;
