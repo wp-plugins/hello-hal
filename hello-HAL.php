@@ -3,7 +3,7 @@
 Plugin Name: Hello HAL
 Plugin URI: http://www.doc4design.com/plugins/hello-hal
 Description: Adds Sci-Fi movie quotes to your admin header
-Version: 2.5
+Version: 2.5.1
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
@@ -141,6 +141,17 @@ That would be great! Yeah, we could turn the thing in the wrong order and materi
 Elvira's got no electric. She can't see her soaps, she'll hyperventilate.<div id=\"note\">[ Trailer Park Man - The Last Starfighter ]</div>
 Why would he come in here and kill a guy for a lousy hundred bucks and a radio?<div id=\"note\">[ Tom Beck - The Hidden ]</div>
 Are you enjoying your Kep-mok blood ticks, Dr. Lazarus?<div id=\"note\">[ Quellek - Galaxy Quest ]</div>
+That damn dragon lady can bend people's minds around, what the hell does she need a blowtorch for! <div id=\"note\">[ Mike Donovan - V: The Final Battle ]</div>
+I make more money selling hamburgers than I did selling reefer.<div id=\"note\">[ Elias Taylor - V: The Final Battle ]</div>
+You know, I've never lost in mortal combat.<div id=\"note\">[ Lydia - V: The Complete Series ]</div>
+Anything is possible, but the odds are astronomically against it.<div id=\"note\">[ Lucifer - Battlestar Galactica '78 ]</div>
+By Your Command.<div id=\"note\">[ Cylon Centurion - Battlestar Galactica '78 ]</div>
+You're a machine. You're a synthetic woman, a robot.<div id=\"note\">[ Baltar - Battlestar Galactica '03 ]</div>
+I'm familiar with their technology because I've been having sex with a Cylon for the last two years now.<div id=\"note\">[ Baltar - Battlestar Galactica '03 ]</div>
+There's no Earth. You made it all up.<div id=\"note\">[ Laura Roslin - Battlestar Galactica '03 ]</div>
+You had a gorram time bomb living with us! Who we gonna find in there when she wakes up?<div id=\"note\">[ Capt. Malcolm Reynolds - Serenity ]</div>
+Everything's shiny, Cap'n. Not to fret.<div id=\"note\">[ Kaylee Frye - Serenity ]</div>
+Mal. Guy killed me, Mal. He killed me with a sword. How weird is that?<div id=\"note\">[ Lenore - Serenity ]</div>
 ";
 
 // Here we split it into lines
