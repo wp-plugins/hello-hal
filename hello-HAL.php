@@ -189,7 +189,7 @@ function hal_css() {
 	echo "
 	<style type='text/css'>
 	#hal9000 {
-      margin: 10px 13px;
+      margin: 10px 13px 15px 0;
       padding: 1px 10px;
       color: #000;
       background-color: #F1F1F1;
