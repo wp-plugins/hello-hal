@@ -173,7 +173,7 @@ return wptexturize( $quotes[ mt_rand( 0, count( $quotes ) - 1 ) ] );
 
 // This just echoes the chosen line
 function hello_hal() {
-	$chosen = hello_hal_get_quote();
+	$chosen = hello_hal_get_quotes();
 	echo "<div class='clear'></div><div id='hal9000'><a href='http://www.doc4design.com'></a><p id='quote'>$chosen</p></div>";
 }
 
@@ -186,6 +186,7 @@ function hal_css() {
 	// This makes sure that the positioning is also good for right-to-left languages
 	$x = is_rtl() ? 'left' : 'right';
 
+    $site_url = get_bloginfo('siteurl' );
 	echo "
 	<style type='text/css'>
 	#hal9000 {
@@ -203,7 +204,9 @@ function hal_css() {
       margin: -2px 0 0;
       float: right;
       display: block;   
-      background: url(hal.png) no-repeat right 0;
+      background: url(";
+      echo $site_url;
+      echo "/wp-content/plugins/hello-hal/hal.png) no-repeat right 0;
       }
    
 	#quote{
