@@ -178,7 +178,7 @@ function hello_hal() {
 }
 
 // Now we set that function up to execute when the admin_footer action is called
-add_action('admin_notices', 'hello_hal');
+add_action('admin_menu', 'hello_hal');
 
 
 // We need some CSS to position the paragraph
@@ -191,7 +191,6 @@ function hal_css() {
 	<style type='text/css'>
 	#hal9000 {
       margin: 0 13px 0 0;
-      margin: 10px 13px 15px 0;
       padding: 1px 10px;
       color: #333;
       border-bottom: 1px solid #DFDFDF;
