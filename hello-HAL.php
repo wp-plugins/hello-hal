@@ -3,7 +3,7 @@
 Plugin Name: Hello HAL
 Plugin URI: http://www.doc4design.com/plugins/hello-hal
 Description: Adds Sci-Fi movie quotes to the dashboard
-Version: 3.0
+Version: 3.1
 Author: Doc4
 Author URI: http://www.doc4design.com
 */
@@ -178,7 +178,7 @@ function hello_hal() {
 }
 
 // Now we set that function up to execute when the admin_footer action is called
-add_action('admin_menu', 'hello_hal');
+add_action('admin_notices', 'hello_hal');
 
 
 // We need some CSS to position the paragraph
@@ -190,7 +190,7 @@ function hal_css() {
 	echo "
 	<style type='text/css'>
 	#hal9000 {
-      margin: 0 13px 0 0;
+      margin: -27px 13px 0 0;
       padding: 1px 10px;
       color: #333;
       border-bottom: 1px solid #DFDFDF;
